@@ -115,8 +115,8 @@
   (defconst ADMIN_ACCOUNT_ID "k:56609bf9d1983f0c13aaf3bd3537fe00db65eb15160463bb641530143d4e9bcf"
     " ID for admin account" )
 
-  (defconst TKN_SUPPLY:decimal 1000000.0
-    " Initial supply of 1 million tokens." )
+  (defconst TKN_SUPPLY:decimal 291020190000.0
+    " Initial supply of two hundred ninety-one billion, twenty million, one hundred ninety thousand tokens." )
 
   (defun tkn-guard () (keyset-ref-guard "free.testcontract-admin"))
 
